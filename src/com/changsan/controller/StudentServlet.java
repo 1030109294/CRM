@@ -24,6 +24,7 @@ public class StudentServlet extends HttpServlet {
     private void add(HttpServletRequest req, HttpServletResponse resp) {
         System.out.println("连接成功");
         System.out.println("添加操作开始执行");
+        System.out.println("1");
     }
     private void update(HttpServletRequest req, HttpServletResponse resp) {
         System.out.println("连接成功");
